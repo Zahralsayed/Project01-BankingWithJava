@@ -1,0 +1,37 @@
+{
+  "id" : "C-101",
+  "name" : "Manar",
+  "password" : "V&2APYp3",
+  "role" : "Customer",
+  "failedAttempts" : 0,
+  "lockTime" : 0,
+  "savingAccount" : null,
+  "checkingAccount" : {
+    "accountId" : "C-00",
+    "customerId" : "C-101",
+    "balance" : 0.0,
+    "card" : {
+      "cardType" : "Standard_Mastercard"
+    },
+    "active" : true,
+    "overdraftCount" : 0,
+    "transactionHistory" : [ ]
+  },
+  "accountNumbers" : [ "C-00" ],
+  "accounts" : [ {
+    "accountId" : "C-00",
+    "customerId" : "C-101",
+    "balance" : 0.0,
+    "card" : {
+      "cardType" : "Standard_Mastercard"
+    },
+    "active" : true,
+    "overdraftCount" : 0,
+    "transactionHistory" : [ ]
+  } ],
+  "transactions" : [ ],
+  "failedAttempts" : 0,
+  "lockUntil" : 0,
+  "firstLogin" : true,
+  "locked" : false
+}

@@ -1,0 +1,58 @@
+package com.bank.accounts;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class CardType {
+    public enum DebitCardType{
+        Platinum_Mastercard,
+        Titanium_Mastercard,
+        Standard_Mastercard
+    }
+
+    @JsonProperty("cardType")
+    protected DebitCardType type;
+
+    public CardType(){}
+
+    public CardType(DebitCardType type) {
+        this.type = type;
+    }
+
+    public DebitCardType getCardType() {
+        return type;
+    }
+
+    private double withdrawLimitPerDay(){
+        switch (type){
+            case Platinum_Mastercard: return 20000;
+            case Titanium_Mastercard: return 10000;
+            default: return 5000;
+        }
+    }
+
+    private double getTransferLimitPerDay(){
+        switch (type){
+            case Platinum_Mastercard: return 40000;
+            case Titanium_Mastercard: return 20000;
+            default: return 10000;
+        }
+    }
+
+    private double getTransferOwnLimitPerDay(){
+        switch (type){
+            case Platinum_Mastercard: return 80000;
+            case Titanium_Mastercard: return 40000;
+            default: return 20000;
+        }
+    }
+
+    private double getDepositeLimitPerDay(){
+        return 100000;
+
+    }
+
+    private double getDepositeOwnLimitPerDay(){
+        return 200000;
+    }
+
+}

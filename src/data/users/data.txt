@@ -1,0 +1,14 @@
+C55,hawraa,39NSA+o2,Customer
+B1,zahraa,1234z,Banker
+C7,fatima,m0bVn5mW,Customer
+C8,jood,g8a19(1#,Customer
+C9,mohammed,m1234,Customer
+C12,Ali,A123li,Customer
+C55,Nasser,xHQ$3L1S,Customer
+C87,balqees,b1212,Customer
+C87,balqees,b1212,Customer
+C12,Ali,A123li,Customer
+C12,Ali,A123li,Customer
+C12,Ali,A123li,Customer
+C-77,Redha,d$}fH#ys,Customer
+C10,Check,q8BXg{#H,Customer

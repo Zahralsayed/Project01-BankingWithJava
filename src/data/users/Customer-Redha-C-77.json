@@ -1,0 +1,36 @@
+{
+  "id" : "C-77",
+  "name" : "Redha",
+  "password" : "d$}fH#ys",
+  "role" : "Customer",
+  "failedAttempts" : 0,
+  "lockTime" : 0,
+  "savingAccount" : null,
+  "checkingAccount" : {
+    "accountId" : "C-01",
+    "customerId" : "C-77",
+    "balance" : 0.0,
+    "card" : {
+      "cardType" : "Standard_Mastercard"
+    },
+    "active" : true,
+    "overdraftCount" : 0,
+    "transactionHistory" : [ ],
+    "accountType" : "Checking"
+  },
+  "accounts" : [ {
+    "accountId" : "C-01",
+    "customerId" : "C-77",
+    "balance" : 0.0,
+    "card" : {
+      "cardType" : "Standard_Mastercard"
+    },
+    "active" : true,
+    "overdraftCount" : 0,
+    "transactionHistory" : [ ],
+    "accountType" : "Checking"
+  } ],
+  "lockUntil" : 0,
+  "firstLogin" : true,
+  "locked" : false
+}
