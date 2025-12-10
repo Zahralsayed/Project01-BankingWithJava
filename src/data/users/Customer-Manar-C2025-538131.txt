@@ -1,0 +1,11 @@
+ID:C2025-538131
+Name:Manar
+Password:M22
+Role:Customer
+FirstLogin:false
+
+Accounts:
+ACC-C-04927420,100000.0,0,Standard_Mastercard,Checking
+
+Transactions:
+ACC-C-04927420,2025-12-10T06:18:20.780775300,Deposit,100000.0,0.0,100000.0,Initial Balnce

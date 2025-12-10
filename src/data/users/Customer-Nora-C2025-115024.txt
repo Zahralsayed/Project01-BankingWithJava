@@ -1,0 +1,12 @@
+ID:C2025-115024
+Name:Nora
+Password:noora101
+Role:Customer
+FirstLogin:false
+
+Accounts:
+ACC-C-63491110,60.0,0,Standard_Mastercard,Checking
+ACC-S-36162618,0.0,0,Standard_Mastercard,Saving
+
+Transactions:
+ACC-C-63491110,2025-12-10T03:49:25.963163500,Deposit,60.0,0.0,60.0,pre deposition

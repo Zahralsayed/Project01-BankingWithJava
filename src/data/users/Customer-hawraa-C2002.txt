@@ -1,0 +1,28 @@
+ID:C2002
+Name:hawraa
+Password:h2002
+Role:Customer
+FailedAttempts:0
+LockUntil:0
+FirstLogin:false
+
+Accounts:
+C-01,22.0,0,Standard_Mastercard,Checking
+S-01,47.0,1,Standard_Mastercard,Saving
+
+Transactions:
+C-01,2025-12-07T16:25:58.714567600,Deposit,50.0,50.0,
+S-01,2025-12-07T16:26:49.072806,Overdraft,40.0,-75.0, (Overdraft + $35 fee)
+C-01,2025-12-07T16:27:24.891208800,Withdraw,20.0,30.0,
+S-01,2025-12-07T16:29:42.169508100,Deposit,2.0,-73.0,
+C-01,2025-12-07T16:30:00.142322600,Deposit,10.0,40.0,
+C-01,2025-12-07T16:30:30.679296,Deposit,12.0,52.0,
+C-01,2025-12-07T16:36:09.263723,Deposit,40.0,92.0,
+C-01,2025-12-07T16:36:41.514334100,Deposit,90.0,182.0,
+C-01,2025-12-07T16:37:23.974793500,Deposit,10.0,192.0,
+C-01,2025-12-07T16:37:55.323179400,Withdraw,10.0,182.0,10$ withdrawn -Shopping-
+C-01,2025-12-07T19:16:18.207605400,Withdraw,20.0,162.0,
+S-01,2025-12-07T19:16:18.207605400,Deposit,20.0,-53.0,
+C-01,2025-12-07T19:18:15.211555500,Withdraw,100.0,62.0,
+C-01,2025-12-07T19:39:07.332183200,Withdraw,40.0,22.0, 40.0 Transferred from Customer C2002 | Account: C-01 to Customer C98 | Account: C-01
+S-01,2025-12-07T22:55:01.286164800,Deposit,100.0,-53.0,47.0,Save them for Gold Exhibtion [ 100.0 Transferred from Customer C66 | Account: S-01 to Your Account S-01 ]

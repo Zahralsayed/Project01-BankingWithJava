@@ -1,0 +1,9 @@
+ID:C13
+Name:Test User
+Password:123
+Role:Customer
+FirstLogin:true
+
+Accounts:
+
+Transactions:

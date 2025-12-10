@@ -1,0 +1,13 @@
+ID:C2025-847272
+Name:Noor
+Password:a8bd1c1de8e149af1fa856d0c79e2fac3aab8c6e7a9dc429e6bd86d095debdf5
+Role:Customer
+FirstLogin:false
+
+Accounts:
+ACC-C-30359622,49980.0,0,Standard_Mastercard,Checking
+ACC-S-03555982,0.0,0,Platinum_Mastercard,Saving
+
+Transactions:
+ACC-C-30359622,2025-12-10T06:22:15.797386400,Deposit,50000.0,0.0,50000.0,Initial Balnace
+ACC-C-30359622,2025-12-10T06:39:39.748759800,Withdraw,20.0,50000.0,49980.0,Fuel

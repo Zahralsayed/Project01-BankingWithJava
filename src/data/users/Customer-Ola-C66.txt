@@ -1,0 +1,42 @@
+ID:C66
+Name:Ola
+Password:ola00
+Role:Customer
+FailedAttempts:0
+LockUntil:0
+FirstLogin:false
+
+Accounts:
+C-01,535203.0,0,Standard_Mastercard,Checking
+S-01,10650.0,0,Titanium_Mastercard,Saving
+
+Transactions:
+C-01,2025-12-07T22:32:39.106649100,Deposit,100.0,0.0,100.0,Gift to olaa
+C-01,2025-12-07T22:35:00.966062100,Withdraw,40.0,100.0,60.0,saving for car---40.0 Transferred from C-01 Account to S-01---
+S-01,2025-12-07T22:35:00.966062100,Deposit,40.0,0.0,40.0,saving for car---40.0 Transferred from C-01 Account to S-01---
+C-01,2025-12-07T22:50:50.563647900,Deposit,100.0,0.0,100.0,Gift to olaa
+C-01,2025-12-07T22:50:50.563647900,Withdraw,40.0,100.0,60.0,saving for car---40.0 Transferred from C-01 Account to S-01---
+S-01,2025-12-07T22:50:50.563647900,Deposit,40.0,0.0,40.0,saving for car---40.0 Transferred from C-01 Account to S-01---
+S-01,2025-12-07T22:52:19.859373600,Deposit,600.0,40.0,640.0,Gold Saving
+S-01,2025-12-07T22:55:01.283679900,Withdraw,100.0,640.0,540.0,Save them for Gold Exhibition [ 100.0 Transferred from Customer C66 | Account: S-01 to Customer C2002 | Account: S-01 ]
+C-01,2025-12-07T22:57:23.722078,Withdraw,10.0,60.0,50.0,Coffee
+S-01,2025-12-08T01:29:52.178922100,Deposit,10.0,540.0,550.0,play
+C-01,2025-12-08T14:57:41.346270200,Deposit,200.0,50.0,250.0,MOL
+C-01,2025-12-08T14:58:12.287534400,Withdraw,100.0,250.0,150.0,Saving 100 from MOL [ 100.0 Transferred from C-01 Account to S-01 ]
+S-01,2025-12-08T14:58:12.287534400,Deposit,100.0,550.0,650.0,Saving 100 from MOL [ 100.0 Transferred from C-01 Account to S-01 ]
+C-01,2025-12-08T21:54:17.840313400,Deposit,200000.0,150.0,200150.0,check the limits
+C-01,2025-12-08T21:58:01.253142100,Deposit,13.0,200150.0,200163.0,priniting limit
+C-01,2025-12-08T22:05:15.598993200,Deposit,200.0,200163.0,200363.0,check
+C-01,2025-12-08T22:05:43.088289500,Deposit,400.0,200363.0,200763.0,hfd
+C-01,2025-12-08T22:09:46.911630,Deposit,199400.0,200763.0,400163.0,kfedp
+C-01,2025-12-08T22:11:22.835547100,Deposit,40.0,400163.0,400203.0,frfr
+C-01,2025-12-09T02:50:20.441759200,Deposit,200.0,400203.0,400403.0,check 9 Dec depostion
+C-01,2025-12-09T02:55:58.986609600,Deposit,99800.0,400403.0,500203.0,complete today limit
+S-01,2025-12-09T03:35:31.829969300,Deposit,30000.0,650.0,30650.0,Car
+S-01,2025-12-09T03:37:04.261435400,Withdraw,20000.0,30650.0,10650.0,need to buy car
+C-01,2025-12-09T03:41:43.372819900,Withdraw,15000.0,500203.0,485203.0,Car [ 15000.0 Transferred from (Customer C66 | Account: C-01) to (Customer C2025 | Account: C-01) ]
+S-01,2025-12-09T03:57:06.139806400,Deposit,50000.0,10650.0,60650.0,Salary
+C-01,2025-12-09T03:59:32.153074300,Deposit,30000.0,485203.0,515203.0,spending salary [ 30000.0 Transferred from S-01 Account to C-01 ]
+S-01,2025-12-09T03:59:32.152103300,Withdraw,30000.0,60650.0,30650.0,spending salary [ 30000.0 Transferred from S-01 Account to C-01 ]
+C-01,2025-12-09T04:02:06.828586400,Deposit,20000.0,515203.0,535203.0,Just for Fun [ 20000.0 Transferred from S-01 Account to C-01 ]
+S-01,2025-12-09T04:02:06.828586400,Withdraw,20000.0,30650.0,10650.0,Just for Fun [ 20000.0 Transferred from S-01 Account to C-01 ]

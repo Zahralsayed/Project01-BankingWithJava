@@ -21,15 +21,4 @@ public class PasswordGenerator {
         return password.toString();
     }
 
-    public void updatePassword(Customer c, String newPassword) {
-
-        c.setPassword(newPassword);
-        c.setFirstLogin(false);
-
-        c.saveAsJson();
-        c.updateCustomerLineInDataFile(c);
-
-    }
-
-
 }

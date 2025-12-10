@@ -1,0 +1,15 @@
+ID:C98
+Name:ahmed
+Password:ahmed101
+Role:Customer
+FailedAttempts:0
+LockUntil:0
+FirstLogin:false
+
+Accounts:
+C-01,140.0,0,Standard_Mastercard,Checking
+S-01,0.0,0,Standard_Mastercard,Saving
+
+Transactions:
+C-01,2025-12-07T19:18:15.211555500,Deposit,100.0,100.0,
+C-01,2025-12-07T19:39:07.353190100,Deposit,40.0,140.0,40.0 deposited from Customer C2002 | Account: C-01 to Your Account C-01

@@ -1,11 +1,16 @@
 package com.bank.accounts;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Transaction {
     protected String accountId;
     protected TransactionType type;
     protected double amount;
+    protected double preBalance;
     protected double postBalance;
     protected LocalDateTime dateTime;
     protected String description;
@@ -13,19 +18,17 @@ public class Transaction {
     public enum TransactionType{
         Deposit,
         Withdraw,
-        Transfer_In,
-        Transfer_Out,
-        Overdraft_fee
+        Overdraft,
+        Fee
     }
 
-    public Transaction(){}
-
-    public Transaction(String accountId, TransactionType type, double amount, double postBalance, LocalDateTime dateTime, String description) {
+    public Transaction(String accountId, TransactionType type, double amount, double preBalance, double postBalance, LocalDateTime dateTime, String description) {
         this.accountId = accountId;
         this.type = type;
         this.amount = amount;
+        this.preBalance = preBalance;
         this.postBalance = postBalance;
-        this.dateTime = LocalDateTime.now();
+        this.dateTime = dateTime;
         this.description = description;
     }
 
@@ -39,6 +42,10 @@ public class Transaction {
 
     public double getAmount() {
         return amount;
+    }
+
+    public double getPreBalance() {
+        return preBalance;
     }
 
     public double getPostBalance() {

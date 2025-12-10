@@ -1,0 +1,10 @@
+ID:C7
+Name:Nora
+Password:666
+Role:Customer
+FirstLogin:true
+
+Accounts:
+ACC-S-4,0.0,0,Platinum_Mastercard,Saving
+
+Transactions:

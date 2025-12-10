@@ -1,7 +1,5 @@
 package com.bank.accounts;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class CardType {
     public enum DebitCardType{
         Platinum_Mastercard,
@@ -9,10 +7,7 @@ public class CardType {
         Standard_Mastercard
     }
 
-    @JsonProperty("cardType")
     protected DebitCardType type;
-
-    public CardType(){}
 
     public CardType(DebitCardType type) {
         this.type = type;
@@ -21,6 +16,11 @@ public class CardType {
     public DebitCardType getCardType() {
         return type;
     }
+
+    public void setCardType(DebitCardType type) {
+        this.type = type;
+    }
+
 
     private double withdrawLimitPerDay(){
         switch (type){
@@ -51,8 +51,31 @@ public class CardType {
 
     }
 
-    private double getDepositeOwnLimitPerDay(){
-        return 200000;
+//    private double getDepositeOwnLimitPerDay(){
+//        return 200000;
+//    }
+
+
+    public double dailyWithdrawLimit() {
+        return withdrawLimitPerDay();
     }
+
+    public double dailyDepositLimit() {
+        return getDepositeLimitPerDay();
+    }
+
+    public double dailyTransferLimit() {
+        return getTransferLimitPerDay();
+    }
+
+    public double dailyOwnTransferLimit() {
+        return getTransferOwnLimitPerDay();
+    }
+
+//    public double dailyOwnDepositLimit() {
+//        return getDepositeOwnLimitPerDay();
+//    }
+
+
 
 }

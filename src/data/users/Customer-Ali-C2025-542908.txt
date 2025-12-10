@@ -1,0 +1,10 @@
+ID:C2025-542908
+Name:Ali
+Password:a00
+Role:Customer
+FirstLogin:false
+
+Accounts:
+ACC-C-85940456,0.0,0,Standard_Mastercard,Checking
+
+Transactions:
