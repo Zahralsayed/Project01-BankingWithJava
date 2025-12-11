@@ -1,9 +1,11 @@
-Bank Management System – Java OOP Project /n
+Bank Management System – Java OOP Project
+-------------------------------------------------------------------------
+## 📌 Description <br>
 A fully functional console-based Bank Management System built using Object-Oriented Programming principles in Java.
 The system supports customer management, accounts, daily limits, overdraft logic, transactions and more.
---------------------------------------------
 
-📌 Technologies Used
+
+## 📌 Technologies Used <br> 
 - Java
 - JUnit for Unit Testing
 - IntelliJ IDEA
@@ -11,10 +13,10 @@ The system supports customer management, accounts, daily limits, overdraft logic
 - File I/O
 - Git & GitHub for version control
 
-📌 Project Board: 
-    [Trello](https://trello.com/b/0hBSO7QB/banking-with-java)
+📌 Project Board: <br>
+    [Link To Trello](https://trello.com/b/0hBSO7QB/banking-with-java)
 
-📌 Future Enhancements
+## 📌 Future Enhancements <br>
 - PDF Bank Statement
 - Currency Management
 - Friends / Frequent Transfers Feature
@@ -22,5 +24,7 @@ The system supports customer management, accounts, daily limits, overdraft logic
 - Scheduled Payments
 - Notification System
 
-📌 ERD Diagram
+
+## 📌 ERD Diagram <br>
+
 <img width="928" height="1083" alt="BankingERD" src="https://github.com/user-attachments/assets/6d4dcccd-b28c-4476-824a-778cc7f3a28b" />
