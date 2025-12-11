@@ -13,8 +13,8 @@ The system supports customer management, accounts, daily limits, overdraft logic
 - File I/O
 - Git & GitHub for version control
 
-📌 Project Board: <br>
-    [Link To Trello](https://trello.com/b/0hBSO7QB/banking-with-java)
+## 📌 Project Board: <br> 
+  [Link To Trello](https://trello.com/b/0hBSO7QB/banking-with-java)
 
 ## 📌 Future Enhancements <br>
 - PDF Bank Statement
